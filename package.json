@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "better-sqlite3": "^9.5.0",
@@ -19,5 +21,6 @@
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.0.3"
-  }
+  },
+  "homepage": "https://RB80KY.github.io/foodies"
 }
